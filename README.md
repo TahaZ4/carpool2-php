@@ -83,3 +83,49 @@ I wanted it to look like an actual carpool app:
 ---
 
 ## 📁 FILE STRUCTURE 
+
+## HOW TO RUN IT ON YOUR LAPTOP
+
+If you want to test this yourself:
+
+1. Download and install XAMPP
+2. Start Apache and MySQL
+3. Put this folder in C:\xampp\htdocs\
+4. Open phpMyAdmin, create database carpool_system
+5. Import database.sql
+6. Open browser, go to http://localhost/carpool-system/index.php
+7. Register an account or use demo: student@campus.edu / 123456
+
+---
+
+## 🧪 TESTING ACCOUNT
+
+
+Email: student@campus.edu  
+Password: 123456
+
+The password is hashed in the database but 123456 still works because of password_verify().
+
+---
+
+##  THINGS I LEARNED (THE HARD WAY)
+
+- SQL injection is real but I didn't fix it fully 
+- Password hashing 
+- Don't change your database structure in the middle of coding
+
+## MADE BY
+
+Abdullah Taha  
+Coventry University Egypt  
+Cyber security student
+2026
+
+---
+
+## 📝 FINAL NOTE
+
+This is my first real PHP project. It's not perfect, there's probably bugs but im planning on developing it to a real world scenario.
+
+
+🚗 Ride safe!
