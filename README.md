@@ -26,9 +26,6 @@ I built this because I was tired of paying for Uber alone every day .
 
 ✅ Clean design – Made it look modern with Coventry Egypt colors (orange + dark blue)
 
-✅ Mobile friendly – Works on phone kinda lol
-
----
 
 ##  HOW I BUILT IT
 
@@ -37,8 +34,7 @@ I built this because I was tired of paying for Uber alone every day .
 - Database: MySQL (phpMyAdmin)
 - Server: XAMPP localhost
 
-No  React, no Bootstrap. Just pure code. My doctor said that's better for learning.
-
+No  React, no Bootstrap. Just pure code.
 ---
 
 ## 🗄️ DATABASE STRUCTURE
@@ -54,7 +50,6 @@ rides
 bookings
 - id, ride_id, user_id, booked_at
 
-Nothing fancy. Works fine.
 
 ---
 
@@ -72,7 +67,6 @@ No plain text passwords in my database
 
 ## DESIGN CHOICES
 
-I wanted it to look like an actual carpool app:
 
 - Orange (#ff5e1a) – Coventry's brand color
 - Dark blue (#1e1e2f) – Looks professional
